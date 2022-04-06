@@ -1,0 +1,33 @@
+{
+    "name": "ui-e2e-automation",
+    "version": "1.0.0",
+    "description": "end-to-end UI automation framework",
+    "main": "index.js",
+    "scripts": {
+        "ui.tests": "wdio run config/wdio.mocha.conf.js",
+        "e2e.scenarios.tests": "wdio run config/wdio.cucumber.conf.js"
+    },
+    "author": "epinetchave",
+    "license": "ISC",
+    "dependencies": {
+        "@cucumber/cucumber": "*",
+        "chai": "^4.3.6",
+        "create-wdio": "^7.1.1",
+        "dotenv": "^16.0.0",
+        "multiple-cucumber-html-reporter": "^1.19.0",
+        "wdio-cucumberjs-json-reporter": "^4.4.1"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.17.8",
+        "@babel/preset-env": "^7.16.11",
+        "@babel/register": "^7.17.7",
+        "@wdio/cli": "^7.19.3",
+        "@wdio/cucumber-framework": "^7.19.3",
+        "@wdio/junit-reporter": "^7.19.1",
+        "@wdio/local-runner": "^7.19.3",
+        "@wdio/mocha-framework": "^7.19.3",
+        "@wdio/spec-reporter": "^7.19.1",
+        "chromedriver": "^100.0.0",
+        "wdio-chromedriver-service": "^7.3.2"
+    }
+}
