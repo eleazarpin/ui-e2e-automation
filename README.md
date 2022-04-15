@@ -23,6 +23,10 @@ npm install
 ```
 2. Define environment variables in your local machine or the `.env` file
 3. Run:
+    0. Pre-condition data:
+    ```bash
+    npm run pre-condition-data
+    ```
     1. UI tests
     ```bash
     npm run ui.tests

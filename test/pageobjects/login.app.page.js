@@ -10,6 +10,10 @@ class LoginPage extends Page {
      * define selectors using getter methods
      */
 
+    get title () {
+        return $('header h2');
+    }
+
     get inputUsername () {
         return $('#username');
     }

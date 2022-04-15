@@ -36,6 +36,7 @@ export const config = {
             if (!fs.existsSync(failureScreenshots)) {
                 fs.mkdirSync(failureScreenshots, { recursive: true });
             }
+            // Check last slash index in BASE and API envs
         } catch (error) {
             console.error(error);
         }
