@@ -1,6 +1,6 @@
 {
     "name": "ui-e2e-automation",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "end-to-end UI automation framework",
     "main": "index.js",
     "scripts": {
